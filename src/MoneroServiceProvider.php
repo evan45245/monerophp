@@ -2,7 +2,7 @@
 
 namespace evan45245\monerophplaravel;
 
-use evan45245\monerophplaravel\jsonRPCClient.php 
+use evan45245\monerophplaravel\jsonRPCClient.php;
 use evan45245\monerophplaravel\daemonRPC.php as Monero;
 use Illuminate\Support\ServiceProvider;
 
