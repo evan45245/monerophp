@@ -1,8 +1,8 @@
 {
-    "name": "evan45245/monerophp-laravel",
+    "name": "evan45245/monerophplaravel",
     "description": "A Monero library written in PHP by the Monero-Integrations team forked for integration in Laravel framework",
     "keywords": ["Monero", "XMR", "monerod", "monero-wallet-rpc", "cryptonote", "JSONRPC", "JSON-RPC", "cryptocurrency", "laravel"],
-    "homepage": "https://github.com/evan45245/monerophp-laravel",
+    "homepage": "https://github.com/evan45245/monerophplaravel",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -28,14 +28,14 @@
     },
     "autoload": {
         "psr-4": {
-            "evan45245\\monerophp-laravel\\": "src/"
+            "evan45245\\monerophplaravel\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "evan45245\\evan45245\\monerophp-laravel"
+                "evan45245\\monerophplaravel"
             ]
         }
     }
