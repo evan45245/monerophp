@@ -1,6 +1,6 @@
 <?php
 
-namespace evan45245\monerophp-laravel;
+namespace evan45245\monerophplaravel;
 
 use Illuminate\Support\Facades\Facade;
 
