@@ -1,5 +1,5 @@
 {
-    "name": "evan45245/monerophp",
+    "name": "evan45245/monerophp-laravel",
     "description": "A Monero library written in PHP by the Monero-Integrations team forked for integration in Laravel framework",
     "keywords": ["Monero", "XMR", "monerod", "monero-wallet-rpc", "cryptonote", "JSONRPC", "JSON-RPC", "cryptocurrency", "laravel"],
     "homepage": "https://github.com/evan45245/monerophp-laravel",
