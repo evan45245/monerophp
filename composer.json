@@ -1,14 +1,14 @@
 {
     "name": "evan45245/monerophp",
-    "description": "A Monero library written in PHP by the Monero-Integrations team.",
-    "keywords": ["Monero", "XMR", "monerod", "monero-wallet-rpc", "cryptonote", "JSONRPC", "JSON-RPC", "cryptocurrency"],
-    "homepage": "https://github.com/monero-integrations/monerophp",
+    "description": "A Monero library written in PHP by the Monero-Integrations team forked for integration in Laravel framework",
+    "keywords": ["Monero", "XMR", "monerod", "monero-wallet-rpc", "cryptonote", "JSONRPC", "JSON-RPC", "cryptocurrency", "laravel"],
+    "homepage": "https://github.com/evan45245/monerophp-laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
 	    {
             "name": "evan45245",
-			"email": "evan4525@take.dog"
+            "email": "evan45245@take.dog"
         },
         {
             "name": "SerHack",
@@ -25,5 +25,18 @@
     ],
     "require": {
         "php": ">=5.6.0"
+    }
+    "autoload": {
+        "psr-4": {
+            "evan45245\\monerophp-laravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "evan45245\\evan45245\\monerophp-laravel"
+            ]
+        }
     }
 }
